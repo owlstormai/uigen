@@ -1,0 +1,146 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e57]: "Create a pricing card with three tiers: Basic ($9/mo), Pro ($29/mo), and Enterprise ($99/mo). Each card should have a list of features and a signup button."
+            - img [ref=e60]
+          - generic [ref=e78]:
+            - img [ref=e81]
+            - generic [ref=e86]:
+              - paragraph [ref=e88]: I'll create a pricing card component with three tiers featuring a clean, modern design with feature lists and signup buttons.
+              - generic [ref=e91]: Created a new React component — App.jsx
+              - separator [ref=e92]
+              - generic [ref=e93]:
+                - paragraph [ref=e94]: Perfect! I've created a beautiful pricing card component with three tiers for you.
+                - heading "What I Built" [level=2] [ref=e95]
+                - paragraph [ref=e96]: A professional pricing page featuring three subscription tiers (Basic, Pro, and Enterprise) with a modern, clean design that helps customers choose the right plan.
+                - heading "Visual Design" [level=2] [ref=e97]
+                - paragraph [ref=e98]: "The page has a soft gradient background that transitions from light gray to a slightly darker gray, creating a sophisticated backdrop. The three pricing cards are arranged side-by-side and feature:"
+                - list [ref=e99]:
+                  - listitem [ref=e100]:
+                    - strong [ref=e101]: Basic and Enterprise cards
+                    - text: ": White backgrounds with dark text, clean and straightforward"
+                  - listitem [ref=e102]:
+                    - strong [ref=e103]: Pro card
+                    - text: "(highlighted as \"Most Popular\"): A blue gradient background with white text and a yellow badge at the top, slightly enlarged to draw attention"
+                  - listitem [ref=e104]:
+                    - strong [ref=e105]: Each card includes
+                    - text: ": The plan name, a brief description, the monthly price in large text, a signup button, and a list of features with green checkmarks"
+                - paragraph [ref=e106]: The cards have a subtle hover effect that makes them slightly larger when you move your mouse over them, adding interactivity. The buttons change color based on the card type — white buttons on the Pro card and blue buttons on the other cards.
+                - paragraph [ref=e107]: At the bottom, there's a reassuring note about the free trial offer.
+                - paragraph [ref=e108]: Feel free to ask me to make any changes you'd like — whether it's adjusting colors, adding or removing features, changing the pricing, or modifying the layout!
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [ref=e32]
+          - tab "Code" [active] [selected] [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - generic [ref=e110]:
+        - generic [ref=e118] [cursor=pointer]:
+          - img [ref=e119]
+          - generic [ref=e124]: App.jsx
+        - separator [ref=e125]
+        - code [ref=e130]:
+          - generic [ref=e131]:
+            - generic [ref=e133]:
+              - generic [ref=e136]: "1"
+              - generic [ref=e138]: "2"
+              - generic [ref=e140]: "3"
+              - generic [ref=e141]:
+                - generic [ref=e142] [cursor=pointer]: 
+                - generic [ref=e143]: "4"
+              - generic [ref=e144]:
+                - generic [ref=e145] [cursor=pointer]: 
+                - generic [ref=e146]: "5"
+              - generic [ref=e147]:
+                - generic [ref=e148] [cursor=pointer]: 
+                - generic [ref=e149]: "6"
+              - generic [ref=e151]: "7"
+              - generic [ref=e153]: "8"
+              - generic [ref=e155]: "9"
+              - generic [ref=e156]:
+                - generic [ref=e157] [cursor=pointer]: 
+                - generic [ref=e158]: "10"
+              - generic [ref=e160]: "11"
+              - generic [ref=e162]: "12"
+              - generic [ref=e164]: "13"
+              - generic [ref=e166]: "14"
+              - generic [ref=e168]: "15"
+              - generic [ref=e170]: "16"
+              - generic [ref=e172]: "17"
+              - generic [ref=e174]: "18"
+              - generic [ref=e175]:
+                - generic [ref=e176] [cursor=pointer]: 
+                - generic [ref=e177]: "19"
+              - generic [ref=e179]: "20"
+              - generic [ref=e181]: "21"
+              - generic [ref=e183]: "22"
+              - generic [ref=e184]:
+                - generic [ref=e185] [cursor=pointer]: 
+                - generic [ref=e186]: "23"
+              - generic [ref=e188]: "24"
+              - generic [ref=e190]: "25"
+              - generic [ref=e192]: "26"
+              - generic [ref=e194]: "27"
+              - generic [ref=e196]: "28"
+              - generic [ref=e198]: "29"
+              - generic [ref=e200]: "30"
+              - generic [ref=e202]: "31"
+              - generic [ref=e204]: "32"
+              - generic [ref=e206]: "33"
+              - generic [ref=e207]:
+                - generic [ref=e208] [cursor=pointer]: 
+                - generic [ref=e209]: "34"
+              - generic [ref=e211]: "35"
+              - generic [ref=e213]: "36"
+            - generic [ref=e353]:
+              - generic [ref=e355]: import React from 'react';
+              - generic [ref=e357]: "import { Check } from 'lucide-react';"
+              - generic [ref=e360]: "export default function PricingCards() {"
+              - generic [ref=e362]: const tiers = [
+              - generic [ref=e364]: "{"
+              - generic [ref=e366]: "name: 'Basic',"
+              - generic [ref=e368]: "price: 9,"
+              - generic [ref=e370]: "description: 'Perfect for getting started',"
+              - generic [ref=e372]: "features: ["
+              - generic [ref=e374]: "'Up to 10 projects',"
+              - generic [ref=e376]: "'1 GB storage',"
+              - generic [ref=e378]: "'Basic analytics',"
+              - generic [ref=e380]: "'Community support',"
+              - generic [ref=e382]: "'Monthly reports'"
+              - generic [ref=e384]: "],"
+              - generic [ref=e386]: "highlighted: false"
+              - generic [ref=e388]: "},"
+              - generic [ref=e390]: "{"
+              - generic [ref=e392]: "name: 'Pro',"
+              - generic [ref=e394]: "price: 29,"
+              - generic [ref=e396]: "description: 'Best for growing teams',"
+              - generic [ref=e398]: "features: ["
+              - generic [ref=e400]: "'Unlimited projects',"
+              - generic [ref=e402]: "'100 GB storage',"
+              - generic [ref=e404]: "'Advanced analytics',"
+              - generic [ref=e406]: "'Priority email support',"
+              - generic [ref=e408]: "'Weekly reports',"
+              - generic [ref=e410]: "'Custom integrations',"
+              - generic [ref=e412]: "'Team collaboration'"
+              - generic [ref=e414]: "],"
+              - generic [ref=e416]: "highlighted: true"
+              - generic [ref=e418]: "},"
+              - generic [ref=e420]: "{"
+              - generic [ref=e422]: "name: 'Enterprise',"
+              - generic [ref=e424]: "price: 99,"
+            - textbox "Editor content" [ref=e426]
+  - alert [ref=e47]
+  - generic [ref=e427]:
+    - alert
+    - alert
