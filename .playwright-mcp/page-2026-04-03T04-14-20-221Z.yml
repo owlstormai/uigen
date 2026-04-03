@@ -1,0 +1,147 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e57]: "Create a pricing card with three tiers: Basic ($9/mo), Pro ($29/mo), and Enterprise ($99/mo). Each card should have a list of features and a signup button."
+            - img [ref=e60]
+          - generic [ref=e78]:
+            - img [ref=e81]
+            - generic [ref=e86]:
+              - paragraph [ref=e88]: I'll create a pricing card component with three tiers featuring a clean, modern design with feature lists and signup buttons.
+              - generic [ref=e91]: Created a new React component — App.jsx
+              - separator [ref=e92]
+              - generic [ref=e93]:
+                - paragraph [ref=e94]: Perfect! I've created a beautiful pricing card component with three tiers for you.
+                - heading "What I Built" [level=2] [ref=e95]
+                - paragraph [ref=e96]: A professional pricing page featuring three subscription tiers (Basic, Pro, and Enterprise) with a modern, clean design that helps customers choose the right plan.
+                - heading "Visual Design" [level=2] [ref=e97]
+                - paragraph [ref=e98]: "The page has a soft gradient background that transitions from light gray to a slightly darker gray, creating a sophisticated backdrop. The three pricing cards are arranged side-by-side and feature:"
+                - list [ref=e99]:
+                  - listitem [ref=e100]:
+                    - strong [ref=e101]: Basic and Enterprise cards
+                    - text: ": White backgrounds with dark text, clean and straightforward"
+                  - listitem [ref=e102]:
+                    - strong [ref=e103]: Pro card
+                    - text: "(highlighted as \"Most Popular\"): A blue gradient background with white text and a yellow badge at the top, slightly enlarged to draw attention"
+                  - listitem [ref=e104]:
+                    - strong [ref=e105]: Each card includes
+                    - text: ": The plan name, a brief description, the monthly price in large text, a signup button, and a list of features with green checkmarks"
+                - paragraph [ref=e106]: The cards have a subtle hover effect that makes them slightly larger when you move your mouse over them, adding interactivity. The buttons change color based on the card type — white buttons on the Pro card and blue buttons on the other cards.
+                - paragraph [ref=e107]: At the bottom, there's a reassuring note about the free trial offer.
+                - paragraph [ref=e108]: Feel free to ask me to make any changes you'd like — whether it's adjusting colors, adding or removing features, changing the pricing, or modifying the layout!
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [selected] [ref=e32]
+          - tab "Code" [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - iframe [ref=e109]:
+        - generic [ref=f6e4]:
+          - generic [ref=f6e5]:
+            - heading "Simple, Transparent Pricing" [level=1] [ref=f6e6]
+            - paragraph [ref=f6e7]: Choose the perfect plan for your needs
+          - generic [ref=f6e8]:
+            - generic [ref=f6e10]:
+              - heading "Basic" [level=2] [ref=f6e11]
+              - paragraph [ref=f6e12]: Perfect for getting started
+              - generic [ref=f6e13]:
+                - generic [ref=f6e14]: $9
+                - text: /month
+              - button "Get Started" [ref=f6e15] [cursor=pointer]
+              - generic [ref=f6e16]:
+                - paragraph [ref=f6e17]: "What's included:"
+                - list [ref=f6e18]:
+                  - listitem [ref=f6e19]:
+                    - img [ref=f6e20]
+                    - generic [ref=f6e22]: Up to 10 projects
+                  - listitem [ref=f6e23]:
+                    - img [ref=f6e24]
+                    - generic [ref=f6e26]: 1 GB storage
+                  - listitem [ref=f6e27]:
+                    - img [ref=f6e28]
+                    - generic [ref=f6e30]: Basic analytics
+                  - listitem [ref=f6e31]:
+                    - img [ref=f6e32]
+                    - generic [ref=f6e34]: Community support
+                  - listitem [ref=f6e35]:
+                    - img [ref=f6e36]
+                    - generic [ref=f6e38]: Monthly reports
+            - generic [ref=f6e39]:
+              - generic [ref=f6e40]: Most Popular
+              - generic [ref=f6e41]:
+                - heading "Pro" [level=2] [ref=f6e42]
+                - paragraph [ref=f6e43]: Best for growing teams
+                - generic [ref=f6e44]:
+                  - generic [ref=f6e45]: $29
+                  - text: /month
+                - button "Get Started" [ref=f6e46] [cursor=pointer]
+                - generic [ref=f6e47]:
+                  - paragraph [ref=f6e48]: "What's included:"
+                  - list [ref=f6e49]:
+                    - listitem [ref=f6e50]:
+                      - img [ref=f6e51]
+                      - generic [ref=f6e53]: Unlimited projects
+                    - listitem [ref=f6e54]:
+                      - img [ref=f6e55]
+                      - generic [ref=f6e57]: 100 GB storage
+                    - listitem [ref=f6e58]:
+                      - img [ref=f6e59]
+                      - generic [ref=f6e61]: Advanced analytics
+                    - listitem [ref=f6e62]:
+                      - img [ref=f6e63]
+                      - generic [ref=f6e65]: Priority email support
+                    - listitem [ref=f6e66]:
+                      - img [ref=f6e67]
+                      - generic [ref=f6e69]: Weekly reports
+                    - listitem [ref=f6e70]:
+                      - img [ref=f6e71]
+                      - generic [ref=f6e73]: Custom integrations
+                    - listitem [ref=f6e74]:
+                      - img [ref=f6e75]
+                      - generic [ref=f6e77]: Team collaboration
+            - generic [ref=f6e79]:
+              - heading "Enterprise" [level=2] [ref=f6e80]
+              - paragraph [ref=f6e81]: For large-scale operations
+              - generic [ref=f6e82]:
+                - generic [ref=f6e83]: $99
+                - text: /month
+              - button "Get Started" [ref=f6e84] [cursor=pointer]
+              - generic [ref=f6e85]:
+                - paragraph [ref=f6e86]: "What's included:"
+                - list [ref=f6e87]:
+                  - listitem [ref=f6e88]:
+                    - img [ref=f6e89]
+                    - generic [ref=f6e91]: Unlimited everything
+                  - listitem [ref=f6e92]:
+                    - img [ref=f6e93]
+                    - generic [ref=f6e95]: Unlimited storage
+                  - listitem [ref=f6e96]:
+                    - img [ref=f6e97]
+                    - generic [ref=f6e99]: Real-time analytics
+                  - listitem [ref=f6e100]:
+                    - img [ref=f6e101]
+                    - generic [ref=f6e103]: 24/7 phone support
+                  - listitem [ref=f6e104]:
+                    - img [ref=f6e105]
+                    - generic [ref=f6e107]: Daily reports
+                  - listitem [ref=f6e108]:
+                    - img [ref=f6e109]
+                    - generic [ref=f6e111]: Custom integrations
+                  - listitem [ref=f6e112]:
+                    - img [ref=f6e113]
+                    - generic [ref=f6e115]: Dedicated account manager
+                  - listitem [ref=f6e116]:
+                    - img [ref=f6e117]
+                    - generic [ref=f6e119]: SLA guarantee
+          - paragraph [ref=f6e121]: All plans include a 14-day free trial. No credit card required.
+  - alert [ref=e47]
